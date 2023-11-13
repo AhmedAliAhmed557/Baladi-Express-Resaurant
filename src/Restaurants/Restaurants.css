@@ -1,0 +1,46 @@
+.container {
+  padding: 10px 5%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+.container p span {
+  font-size: 19px;
+  cursor: pointer;
+}
+.container p span:first-child {
+  color: #b3b3b3;
+}
+.container p span:last-child {
+  color: var(--main-color);
+}
+.container .rest-title {
+  font-size: 60px;
+}
+.restaurants {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.restaurants .restaurant {
+  width: 142.98px;
+  height: 142.98px;
+  background-color: #eff2f5;
+  border-radius: 6px;
+}
+.restaurants img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .rest-title {
+    font-size: 36px !important;
+  }
+  .restaurants .restaurant {
+    width: 106px;
+    height: 106px;
+  }
+}
